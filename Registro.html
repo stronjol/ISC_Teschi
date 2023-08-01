@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="img/isc_logo.jpg">
+    <link rel='stylesheet' type='text/css' media='screen' href='Registro.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <div class="login-box">
+      
+        <h2>Registro</h2>
+        
+        <form action="Registro.php" method="post">
+
+         
+
+            <div class="user-box">
+                <input type="text" name="txtNombre"  placeholder="Nombre">
+            </div>
+
+            <div class="user-box">
+                <input type="text"  name="txtApaterno" placeholder="Apellido Paterno">
+            </div>
+            
+            <div class="user-box">
+                <input type="text" name="txtAmaterno"  placeholder="Apellido Materno">
+            </div>
+
+            <div class="user-box">
+                <input type="text" name="txtEdad"  placeholder="Edad">
+            </div>
+
+            <div class="user-box">
+                <input type="text" name="txtDireccion"  placeholder="Direccion">
+            </div>
+
+            <div class="user-box">
+                <input type="tel" name="txtTel"  placeholder="Telefono">
+            </div>
+
+            <div class="user-box">
+                <input type="email" name="txtEmail"  placeholder="e-mail">
+            </div>
+
+            <div class="user-box">
+                <select name="Escuelas" class="sel">
+                    <option value="Tech">Tech</option>
+                    <option value="Conalep">Conalep plantel Chimalhuacan</option>
+                    <option value="pili-Chimal">Universidad Politecnica de Chimalhuacan</option>
+                    <option value="Cobaem">Panten N°3 Chimalhuacan</option>
+                    <option value="Pili-Texcoco">Universidad Politecnica de Texcoco</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Registrar" class="a" >
+            
+            <a href="index.html" type="submit" value="Regresar" class="b">Regresar</a>
+        </form>
+    </div>
+
+</body>
+</html>
